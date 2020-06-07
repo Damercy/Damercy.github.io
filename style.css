@@ -1,0 +1,40 @@
+body{
+    background-color: lightskyblue;
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+    overflow-y:scroll;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+body {
+    -ms-overflow-style: none;
+}
+
+#cert-card:hover{
+    box-shadow: 2px 10px 20px grey;
+    transition: 0.5s;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+@media only screen and (min-width:768px){
+    #mycard{
+        border-radius: 2rem;
+    }
+    .fixed-top{
+        position: relative;
+    }
+}
+
+@media only screen and (max-width:992px){
+    #navvv{
+        box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
+    }
+}

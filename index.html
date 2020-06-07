@@ -1,275 +1,284 @@
 <!DOCTYPE html>
 <html lang="en">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portfolio | Dayamoy Adhikari</title>
-        <!-- CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Dayamoy</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
             integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-
-    <body data-spy="scroll" data-target=".navbar" data-offset="0">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
-            <a class="navbar-brand" href="#daya">
-                <img src="./assets/dp_new.jpg" width="30" height="30" class="rounded d-inline-block align-top" alt=""
-                    loading="lazy">
-                Dayamoy
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home">About <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#faq">FAQ</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                            >
-                            Download
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container-fluid p-md-4 p-0 ">
+            <div id="mycard" class="card border-light mt-md-5 mb-md-3">
+                <div class="card-header bg-transparent">
+                    <nav id="navvv" class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+                        <a class="navbar-brand" href="#">
+                            <img src="icon-nav.png" width="40" height="40" class="d-inline-block align-top p-1 rounded-circle bg-primary img-fluid"  loading="lazy">
+                            <div class="d-inline-block p-1">
+                                <span class="p-1" style="font-weight: bolder;">Dayamoy</span> Adhikari
+                            </div>
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="https://drive.google.com/file/d/1XV50AM9Qs6SRPL4XBypUbn-13MMeRDAp/view?usp=sharing">Resume</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      About me
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                      <a class="dropdown-item" href="#">Action</a>
+                                      <a class="dropdown-item" href="#">Another action</a>
+                                    </div>
+                                </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Resume</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Portfolio
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <a class="dropdown-item" href="#">Action</a>
+                                  <a class="dropdown-item" href="#">Another action</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Blog
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <a class="dropdown-item" href="#">Action</a>
+                                  <a class="dropdown-item" href="#">Another action</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Extra</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Get it now</a>
+                            </li>
+                          </ul>
                         </div>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-       
-            <div class="intro container-fluid" id="daya">
-                <p>DAYAMOY ADHIKARI</p>
-            </div>
-        <!--<div data-spy="scroll" data-target="#navbarSupportedContent" data-offset="0" style="position:relative;">-->
-            <section id="home">
-                <div class="container">
-                    <div class="row" style="padding: 5rem 1rem;">
-                        <div class="col-md-8 col-xs-8">
-                            <h1>CAREER PROFILE</h1>
-                            <p class="lead text-left">Hello there! I'm a 21 year old Computer Science undergraduate at KIIT
-                                University.
-                                I am a 3rd-year student who is interested in algorithms and data structures
-                                and has also tried App development, UI design and Web Development.
-                            </p>
-                            <p class="lead text-left">
-                                A fast learner and a curious individual, I have tried many tools and stacks and
-                                so I pickup new technologies as required for the job.
-                            </p>
-                            <p class="lead text-left">
-                                I like to <a href="https://damercy.github.io/compute/">blog</a>, cook, read and make music
-                                sometimes!
-                            </p>
-                        </div>
-                        <div class="col-md-4 col-xs-4">
-                            <img src="./assets/dp_new.jpg" class="img-fluid rounded border border-dark" alt="">
-                        </div>
-                    </div>
+                      </nav>
                 </div>
-            </section>
-            <section id="projects" style=" background: #151414;">
-                <div class="container">
-                    <div class="row" style="padding: 5rem 1rem;">
-                        <div class="col-md-4 col-xs-4">
-                            <h1 >PROJECTS</h1>
-                            <div class="card mt-3" style="width: 18rem;">
-                                <img class="card-img-top" src="./assets/log-reg.png" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Login Register Application</h5>
-                                    <p class="card-text lead">
-                                        A basic android application that uses Firebase for authentication.
-                                    </p>
-                                    <a href="https://github.com/Damercy/LogReg" class="btn btn-dark stretched-link">GitHub</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-8 col-xs-8" >
-                            <p class="lead" style="padding-top: 15rem;">
-                                A basic android app that uses Firebase to integrate authentication and database facilities.
-                                Yet to complete. My primary focus was on designing a responsive,clean UI.
-                                <br>
-                                Features:
-                            <ul>
-                                <li>
-                                    Registration and Login</li>
-                                <li>Authentication</li>
-                                <li>Data files upload (ability to upload profile picture for now)</li>
-                                <li>Logout facility</li>
-                                <li>Smooth UI and modern design</li>
-                            </ul>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row" style="padding: 3rem 1rem;">
-                        <div class="col-md-8 col-xs-8">
-                            <p class="lead" style="padding-top: 5rem;">
-                                The objective of the game is simple - To <b>avoid</b> getting crashed!
-                                The Car only moves sideways and you've to avoid hitting the window edges as well.
-                                The project helped me understand about rendering and pixel coordinate systems.
-                            </p>
-                        </div>
-
-                        <div class="col-md-4 col-xs-4">
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="./assets/begin-race.png" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Racing game</h5>
-                                    <p class="card-text lead">
-                                        A 1-D Racing game made using python.
-                                    </p>
-                                    <a href="https://github.com/Damercy/Begin_Race" class="btn btn-dark stretched-link">GitHub</a>
-                                </div>
+                    <div class="card-footer border-bottom p-md-5">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h1 class="mt-5 mt-md-0">Resume <span style="font-size: medium; font-weight: lighter; color: #AAAAAA; float:right;">Fresher</span></h1>
                             </div>
                         </div>
                     </div>
-                    <div class="row" style="padding: 3rem 1rem;">
-                        <div class="col-md-4 col-xs-4">
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="./assets/world-time.png" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">World Time Application</h5>
-                                    <p class="card-text lead">
-                                        Cross platform app made using flutter.
-                                    </p>
-                                    <a href="https://github.com/Damercy/WorldTime" class="btn btn-dark stretched-link">GitHub</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-8 col-xs-8">
-                            <p class="lead" style="padding-top: 15rem;">
-                                Tried my hands on flutter by making this world time app that shows the time at different
-                                places on earth like NYC,Toronto,London etc. Used world time api to fetch JSON data and then
-                                filtering out the required datas. Learned about async programming and api handling.
-                            </ul>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row" style="padding: 3rem 1rem;">
-                        <div class="col-md-8 col-xs-8">
-                            <p class="lead" style="padding-bottom: 1rem; padding-top: 5rem;">
-                                A basic web scraper made using Selenium (Python), this was a weekend project for one of my
-                                friends. With no prior experience of web scraping beforehand, I think I learnt quite some bit
-                                about it. The app scrapes the stock data from NSE website at an interval of 10 minutes and saves
-                                this data in a human readable CSV format.
-                            </p>
-                        </div>
-
-                        <div class="col-md-4 col-xs-4">
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="./assets/scraper.jpg" alt="Card image cap">
-                                <div class="card-body">
-                                    <h5 class="card-title">Web Scraper</h5>
-                                    <p class="card-text lead">
-                                        A scraper made using python and Selenium.
-                                    </p>
-                                    <a href="https://github.com/Damercy/WebScraper" class="btn btn-dark stretched-link">GitHub</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="skills" style="background: black; ">
-                <div class="container">
-                    <div class="row" style="padding: 5rem 1rem;">
-                        <div class="col-md-12 col-xs-12">
-                                <h1>SKILLS</h1>
-                                        <div class="progress mb-4 mt-5">
-                                            <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" style="width: 55%;background-color:#151414;"
-                                                aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">Python</div>
-                                        </div>
-                                        <div class="progress mb-4">
-                                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 50%;background-color:#151414;"
-                                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">C++/Java</div>
-                                        </div>
-                                        <div class="progress mb-4">
-                                            <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" style="width: 60%;background-color:#151414;"
-                                                aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">Web development</div>
-                                        </div>
-                                        <div class="progress mb-4">
-                                            <div class="progress-bar progress-bar-striped progress-bar-animated " role="progressbar" style="width: 70%;background-color:#151414;"
-                                                aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">App development</div>
-                                        </div>
-                                        <div class="progress mb-5">
-                                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 80%;background-color:#151414;"
-                                                aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">Communication/Leadership</div>
-                                        </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <div id="faq">
-                <div class="container" style="padding:5rem 1rem;">
-                    <nav class="nav flex-column">
-                        <a  onclick="changeIcon(this)" data-toggle="collapse" href="#contact-me" role="button" aria-expanded="false" class="nav-link"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
-                        How to contact you?</a>
-                        <div class="collapse" id="contact-me"> 
-                            <p class="lead p-4"> You can hit me up on Twitter or LinkedIn. Further contact details can be found in my resume.</p>
-                        </div>
-                        <a onclick="changeIcon(this)" data-toggle="collapse" href="#living" role="button" aria-expanded="false" class="nav-link"><i  class="fa fa-chevron-circle-right" aria-hidden="true"></i>
-                            Where do you live?</a>
-                        <div class="collapse" id="living"> 
-                            <p class="lead p-4">Currently, I am at my home in Durgapur, West Bengal. It's pretty relaxing here!</p>
-                        </div>
-                        <a  onclick="changeIcon(this)" data-toggle="collapse" href="#proj" role="button" aria-expanded="false" class="nav-link" href="#"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
-                            What's the most exciting project you've worked on till date?</a>
-                        <div class="collapse" id="proj"> 
-                            <p class="lead p-4">Although I haven't ever handled a real product yet (looking forward to though!), one of the most exciting projects that I have worked on would be my project report on Mobile Automatic License Plate
-                                Detection (MALPR). It was an OOSD based document where we, a team of 5 members, planned to deploy an android application to monitor vehicles going in and out of our campus.
-                                I was responsible for coming up with the base design of the system including the decision to use two databases and some coding of the android application as well.
-                            </p>
-                        </div>
-                        <a onclick="changeIcon(this)" data-toggle="collapse" href="#fav-quote" role="button" aria-expanded="false" class="nav-link" href="#"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
-                            What's your favourite quote?</a>
-                        <div class="collapse" id="fav-quote"> 
-                        <blockquote class="blockquote p-4">"To improve is to change; to be perfect is to change often."</blockquote>
-                                                <div class="blockquote-footer pl-4">Winston Churchill</div>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-            <footer id="social">
-                <div class="container text-center p-5">
+                    <div class="card-body p-md-5">   
+                    <!--Body row-->
                     <div class="row">
-                        <div class="col-4">
-                            <a href="https://twitter.com/Damercysiyzarc"><i class="fa fa-twitter" aria-hidden="true" style="font-size: 6vh;"></i></a>
+                        <div class="col-md-6 mt-5 mt-md-5">
+                            <h4 style="display: inline; padding-bottom: 1px; box-shadow: 0px 3px rgba(0,0,0,0.1);">Education</h4>
+                            <div class="progress" style="height: 3px;width: 2.5rem;">
+                                <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div id="card-thing">
+                                <!--<p class="card-text pt-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+                                <h5 class="pt-4"><span class="border border-primary rounded-pill p-2 small">2017</span><span class="p-3" style="font-size: medium; font-weight: lighter; color: #AAAAAA;">Hem Sheela Model School</span></h5>
+                                <div class="border-left border-light border-bottom ml-4">
+                                    <h5 class="ml-5 mt-5 mr-5 pl-1">UI DESIGN</h5>
+                                    <p class="pl-1 ml-5 mr-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, aut eos? Dolorem ratione totam earum adipisci inventore? Eaque qui saepe rem incidunt corrupti alias quia praesentium itaque ad? Fugit, id?</p>
+                                </div>
+                            </div>
+                            <div id="card-thing ">
+                                <!--<p class="card-text pt-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+                                <h5 class="pt-4"><span class="border border-primary rounded-pill p-2 small">2017</span><span class="p-3" style="font-size: medium; font-weight: lighter; color: #AAAAAA;">Hem Sheela Model School</span></h5>
+                                <div class="border-left border-bottom border-light  ml-4">
+                                    <h5 class="ml-5 mt-5 mr-5 pl-1">UI DESIGN</h5>
+                                    <p class="pl-1 ml-5 mr-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, aut eos? Dolorem ratione totam earum adipisci inventore? Eaque qui saepe rem incidunt corrupti alias quia praesentium itaque ad? Fugit, id?</p>
+                                </div>
+                            </div>
+                            <div id="card-thing ">
+                                <!--<p class="card-text pt-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+                                <h5 class="pt-4"><span class="border border-primary rounded-pill p-2 small">2017</span><span class="p-3" style="font-size: medium; font-weight: lighter; color: #AAAAAA;">Hem Sheela Model School</span></h5>
+                                <div class="border-left border-bottom border-light  ml-4">
+                                    <h5 class="ml-5 mt-5 mr-5 pl-1">UI DESIGN</h5>
+                                    <p class="pl-1 ml-5 mr-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, aut eos? Dolorem ratione totam earum adipisci inventore? Eaque qui saepe rem incidunt corrupti alias quia praesentium itaque ad? Fugit, id?</p>
+                                </div>    
+                            </div>
                         </div>
-                        <div class="col-4">
-                            <a href="https://github.com/Damercy"><i class="fa fa-github" aria-hidden="true" style="font-size: 6vh;"></i></a>   
+                        <div class="col-md-6 mt-5 mt-md-5">
+                            <h4 style="display: inline;padding-bottom: 1px; box-shadow: 0px 3px  rgba(0,0,0,0.1);">Experience</h4>
+                            <div class="progress" style="height: 3px;width: 2.5rem;">
+                                <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div id="card-thing ">
+                                <!--<p class="card-text pt-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+                                <h5 class="pt-4"><span class="border border-primary rounded-pill p-2 small">2020 - Present</span><span class="p-3" style="font-size: medium; font-weight: lighter; color: #AAAAAA;">Uthaan Pvt. Ltd.</span></h5>
+                                <div class="border-left border-bottom border-light  ml-4">
+                                    <h5 class="ml-5 mt-5 mr-5 pl-1">UI DESIGN</h5>
+                                    <p class="pl-1 ml-5 mr-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, aut eos? Dolorem ratione totam earum adipisci inventore? Eaque qui saepe rem incidunt corrupti alias quia praesentium itaque ad? Fugit, id?</p>
+                                </div>
+                            </div>
+                            <div id="card-thing ">
+                                <!--<p class="card-text pt-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+                                <h5 class="pt-4"><span class="border border-primary rounded-pill p-2 small">2020 - Present</span><span class="p-3" style="font-size: medium; font-weight: lighter; color: #AAAAAA;">Uthaan Pvt. Ltd.</span></h5>
+                                <div class="border-left border-bottom border-light  ml-4">
+                                    <h5 class="ml-5 mt-5 mr-5 pl-1">UI DESIGN</h5>
+                                    <p class="pl-1 ml-5 mr-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, aut eos? Dolorem ratione totam earum adipisci inventore? Eaque qui saepe rem incidunt corrupti alias quia praesentium itaque ad? Fugit, id?</p>
+                                </div>
+                            </div>
+                            <div id="card-thing ">
+                                <!--<p class="card-text pt-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
+                                <h5 class="pt-4"><span class="border border-primary rounded-pill p-2 small">2020 - Present</span><span class="p-3" style="font-size: medium; font-weight: lighter; color: #AAAAAA;">Uthaan Pvt. Ltd.</span></h5>
+                                <div class="border-left border-bottom border-light  ml-4">
+                                    <h5 class="ml-5 mt-5 mr-5 pl-1">UI DESIGN</h5>
+                                    <p class="pl-1 ml-5 mr-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, aut eos? Dolorem ratione totam earum adipisci inventore? Eaque qui saepe rem incidunt corrupti alias quia praesentium itaque ad? Fugit, id?</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-4">
-                            <a href="https://www.linkedin.com/in/dayamoy-adhikari-0824b417a/"><i class="fa fa-linkedin-square" aria-hidden="true" style="font-size: 6vh;"></i></a>   
-                        </div>  
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12  mt-5 mt-md-5">
+                            <h4 style="display: inline; padding-bottom: 1px; box-shadow: 0px 3px  rgba(0,0,0,0.1);">Certificates</h4>
+                            <div class="progress" style="height: 3px;width: 2.5rem;">
+                                <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <!--card-->
+                            <div id="cert-card" class="card mb-3 mt-5" style="max-width: 100%;">
+                                <a class="stretched-link" href="https://www.google.com/"></a>
+                                <div class="row no-gutters">
+                                  <div class="col-md-4 col-4">
+                                    <img src="https://pngimg.com/uploads/microsoft/microsoft_PNG6.png" class="card-img p-3" alt="...">
+                                  </div>
+                                  <div class="col-md-8 col-8">
+                                    <div class="card-body">
+                                      <h5 class="card-title">MTA Certification</h5>
+                                      <p class="card-text">Certification ID: XXXXXXX </p>
+                                      <p class="card-text"><small class="text-muted">20 December 2019</small></p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div  id="cert-card" class="card mb-3 mt-5" style="max-width: 100%;" >
+                                <a class="stretched-link" href="https://www.google.com/"></a>
+                                <div class="row no-gutters">
+                                  <div class="col-md-4 col-4">
+                                    <img src="https://pngimg.com/uploads/microsoft/microsoft_PNG6.png" class="card-img p-3" alt="...">
+                                  </div>
+                                  <div class="col-md-8 col-8">
+                                    <div class="card-body">
+                                      <h5 class="card-title">MTA Certification</h5>
+                                      <p class="card-text">Certification ID: XXXXXXX </p>
+                                      <p class="card-text"><small class="text-muted">20 December 2019</small></p>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- certificate card ends-->
+                    <div class="row">
+                        <div class="col-md-6 mt-5 mt-md-5">
+                            <h4 style="display: inline; padding-bottom: 1px; box-shadow: 0px 3px  rgba(0,0,0,0.1);">Design skills</h4>
+                            <div class="progress" style="height: 3px;width: 2.5rem;">
+                                <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div>
+                                <div class="pt-5">
+                                    <h6>UI/UX Design<span style="font-size: medium; font-weight: lighter; color: #AAAAAA; float:right;">96%</span></h6>
+                                    <div class="progress border rounded-right rounded-left p-1" style="height: 1rem;">
+                                        <div class="progress-bar rounded" role="progressbar" style="width: 96%;" aria-valuenow="96" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h6 class="mt-3">Print Design<span style="font-size: medium; font-weight: lighter; color: #AAAAAA; float:right;">75%</span></h6>
+                                    <div class="progress border rounded-right rounded-left p-1" style="height: 1rem;">
+                                        <div class="progress-bar rounded" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h6 class="mt-3">Graphic Design<span style="font-size: medium; font-weight: lighter; color: #AAAAAA; float:right;">85%</span></h6>
+                                    <div class="progress border rounded-right rounded-left p-1" style="height: 1rem;">
+                                        <div class="progress-bar rounded" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h6 class="mt-3">Logo Design <span style="font-size: medium; font-weight: lighter; color: #AAAAAA; float:right;">90%</span></h6>
+                                    <div class="progress border rounded-right rounded-left p-1" style="height: 1rem;">
+                                        <div class="progress-bar rounded" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-5 mt-md-5">
+                            <h4 style="display: inline; padding-bottom: 1px; box-shadow: 0px 3px  rgba(0,0,0,0.1);">Coding skills</h4>
+                            <div class="progress" style="height: 3px;width: 2.5rem;">
+                                <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div>
+                                <div class="pt-5">
+                                    <h6>HTML/CSS<span style="font-size: medium; font-weight: lighter; color: #AAAAAA; float:right;">100%</span></h6>
+                                    <div class="progress border rounded-right rounded-left p-1" style="height: 1rem;">
+                                        <div class="progress-bar rounded" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h6 class="mt-3">Javascript<span style="font-size: medium; font-weight: lighter; color: #AAAAAA; float:right;">90%</span></h6>
+                                    <div class="progress border rounded-right rounded-left p-1" style="height: 1rem;">
+                                        <div class="progress-bar rounded" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h6 class="mt-3">PHP<span style="font-size: medium; font-weight: lighter; color: #AAAAAA; float:right;">90%</span></h6>
+                                    <div class="progress border rounded-right rounded-left p-1" style="height: 1rem;">
+                                        <div class="progress-bar rounded" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h6 class="mt-3">Smarty/Twig<span style="font-size: medium; font-weight: lighter; color: #AAAAAA; float:right;">85%</span></h6>
+                                    <div class="progress border rounded-right rounded-left p-1" style="height: 1rem;">
+                                        <div class="progress-bar rounded" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </footer>
-        <!---->
-
-
-        <!-- JS, Popper.js, and jQuery -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-            crossorigin="anonymous"></script>
-        <script>function changeIcon(x) {
-            x.childNodes[0].classList.toggle("fa-chevron-circle-down")
-          }
-        </script>
-    </body>
-
+            <div class="card-footer">
+                <!--footer-->
+                <div class="row justify-content-between">
+                    <div class="col-md-3">
+                        <ul class="list-group list-group-horizontal justify-content-between">
+                                <a class="p-1 p-md-3">Twitter</a>
+                                <a class="p-1 p-md-3">Facebook</a>
+                                <a class="p-1  p-md-3">Instagram</a>
+                        </ul>
+                    </div>
+                    <div class="col-md-5">
+                        <p class="p-md-3 text-center" style="color: #AAAAAA;">&copy; 2020 All Rights Reserved </p>
+                    </div>
+                </div>
+            </div> 
+     </div>
+    </div>
+     <!-- JS, Popper.js, and jQuery -->
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+     crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+     crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+     crossorigin="anonymous"></script>
+</body>
 </html>
